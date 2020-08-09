@@ -2,15 +2,13 @@
 int lastsystemState = 0;
 long unsigned int lastSignal;
 int alarmTime = 20000;
+int toggleState = 1;
 
 //microphone
-int toggleState = 1;
 int micPin = 2;
 
 //speaker
 int speakerPin = 13;
-//visual Output
-int screenPin =11;
 
 void setup() {
   Serial.begin(9600);
